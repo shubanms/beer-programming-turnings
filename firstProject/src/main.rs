@@ -1,4 +1,5 @@
 #![allow(non_snake_case)]
+#![allow(dead_code)]
 
 fn main() {
     // Print statement
@@ -46,5 +47,7 @@ fn main() {
     z = z + 1;
     println!("The value of z is : {}" , z);
 
-
+    // Creating a constant
+    const SECONDS_IN_MINUTES: i32 = 60;
+    println!("{}" , SECONDS_IN_MINUTES);
 }
